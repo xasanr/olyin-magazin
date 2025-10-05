@@ -1,1 +1,2 @@
 # olyin-magazin
+# internet-magazin

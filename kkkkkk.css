@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.conitaner{
+    width: 80%;
+    margin: 0 auto;
+
+} 
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1{
+    display: inline block;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+
+
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: rgb(224, 7, 7);
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.b1{
+    background-image: url(photo_2025-08-25_17-40-54.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+
+.j1 h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.j1 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.b1 button{
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+.pro{
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.pro h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+
+}
+
+.pro2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pro3{
+    background-color: azure;
+    padding: 20px;
+    /*border: 2px solid #b10909;*/
+    width: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 04px 6px rgb(0,0,0,0,1);
+    transition:transform 3s;
+}
+
+.pro3:hover{
+    transform: scale(1.05);
+}
+
+
+
+img {
+    width: 100%;
+    height: 20px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.pro3 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pro3 p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.pro3 button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+
+footer{
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
